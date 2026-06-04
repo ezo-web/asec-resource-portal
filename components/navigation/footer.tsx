@@ -22,16 +22,16 @@ export function Footer() {
         <div className="hidden items-center md:block">
           <Link
             className="font-semibold"
-            href="https://rubixstudios.com.au"
-            title="Rubix Studios"
-            aria-label="Rubix Studios"
+            href="/"
+            title="Aldershot School Executive Council"
+            aria-label="ASEC"
             target="_blank"
           >
             <Image
-              src="/logo.svg"
-              alt="Rubix Studios logo"
-              title="Rubix Studios logo"
-              aria-label="Rubix Studios logo"
+              src="/icon1.png"
+              alt="ASEC logo"
+              title="ASEC logo"
+              aria-label="ASEC logo"
               priority={false}
               width={30}
               height={30}

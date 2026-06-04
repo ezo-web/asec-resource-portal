@@ -1,159 +1,9 @@
 [
   {
-    "slug": "/basic-setup/changelog",
-    "title": "Changelog",
-    "description": "Changelogs and improvements to the Documents projects.",
-    "content": "## Added\n\n**Linting and Formatting**:\n\n* Added `pnpm run lint` and `pnpm run lint:fix` scripts to automate linting tasks.\n* Added `pnpm run format` and `pnpm run format:check` scripts to ensure consistent code formatting.\n\n**SEO Enhancements**:\n\n* Added an SEO component to MDX pages to dynamically include `keywords` and `lastModified` metadata for improved SEO generation.\n\n## Updated\n\n**Next.js Upgrade**:\n\n* Upgraded the project from **Next.js 14** to **Next.js 15**, leveraging the latest features and performance improvements.\n\n**Codebase Improvements**:\n\n* Reordered imports across the project files for better consistency and readability.\n\n**Mermaid Component**:\n\n* Fixed an ID bug that caused rendering issues when multiple Mermaid diagrams were included in MDX pages.\n* Improved initialization and rendering logic to prevent duplicate diagram rendering.\n",
-    "_searchMeta": {
-      "cleanContent": "added linting and formatting: added pnpm run lint and pnpm run lint:fix scripts to automate linting tasks added pnpm run format and pnpm run format:check scripts to ensure consistent code formatting seo enhancements: added an seo component to mdx pages to dynamically include keywords and lastmodified metadata for improved seo generation updated next js upgrade: upgraded the project from next js 14 to next js 15 leveraging the latest features and performance improvements codebase improvements: reordered imports across the project files for better consistency and readability mermaid component: fixed an id bug that caused rendering issues when multiple mermaid diagrams were included in mdx pages improved initialization and rendering logic to prevent duplicate diagram rendering",
-      "headings": [
-        "Added",
-        "Updated"
-      ],
-      "keywords": [
-        "changelog",
-        "guide",
-        "nextjs",
-        "documents",
-        "Added",
-        "Updated",
-        "Linting and Formatting",
-        "SEO Enhancements",
-        "Next.js Upgrade",
-        "Next.js 14",
-        "Next.js 15",
-        "Codebase Improvements",
-        "Mermaid Component",
-        "pnpm run lint",
-        "pnpm run lint:fix",
-        "pnpm run format",
-        "pnpm run format:check",
-        "keywords",
-        "lastModified"
-      ]
-    }
-  },
-  {
-    "slug": "/basic-setup",
-    "title": "Introduction",
-    "description": "This section provides an overview of how to get started with the Documents, Next.js Document Starter Kit.",
-    "content": "![Banner](/images/banner.png \"Documents\")\n\n## Documents\n\n**Documents** is a lightweight, modular starter kit built with **Next.js**, **React**, **Tailwind CSS**, and **TypeScript**. It’s designed to help you\nlaunch structured, professional documentation without spending time on boilerplate.\n\nWhether you're building product manuals, internal systems guides, or dev documentation, Documents gives you a clean foundation that’s easy to\nextend and maintain.\n\n## Why use Documents?\n\nThis kit was built to simplify how teams manage and publish documentation. It works across projects of all sizes—from a single\nreadme to enterprise knowledge bases.\n\nWith MDX, reusable components, and Tailwind styling, it keeps your workflow efficient without compromising flexibility.\n\nUse it for:\n\n* **Product Guides** – Setup, usage, and troubleshooting\n* **Internal Docs** – Processes, policies, and team references\n* **Technical Manuals** – APIs, SDKs, architecture walkthroughs\n\nCustomize the UI and structure to match your brand or workflow—no lock-in.\n\n## Core Features\n\n| Feature                              | Description                                                                 |\n| ------------------------------------ | --------------------------------------------------------------------------- |\n| **Write in Markdown/MDX**            | Combine Markdown with components and Mermaid.js for rich content.           |\n| **Flexible Navigation**              | Multi-level menus, page hierarchy, and auto-generated TOCs.                 |\n| **Code Support**                     | Syntax highlighting, code tabs, and one-click copy.                         |\n| **Search**                           | Fuzzy matching with highlight and instant results.                          |\n| **Responsive Design**                | Built-in light/dark mode with mobile support.                               |\n| **Math + Tables**                    | LaTeX rendering and clean table styling.                                    |\n| **SEO Defaults**                     | Preconfigured meta, Open Graph, and structured data.                        |\n| **AI Docs (Upcoming)**               | AI tools for smart search and content generation (coming soon).             |\n\n## Using This Kit\n\nNavigation is on the left. Pages flow from setup to advanced features, but you're free to jump around.\n\nUse the table of contents on the right to skip through sections.\n\nStart with the [Installation Guide](/docs/basic-setup/installation).\n\n## Community Support\n\nGot questions? Reach out via:\n\n* [GitHub](https://github.com/rubixvi/rubix-documents)\n* [Twitter](https://x.com/rubixstory)\n* [Facebook](https://www.facebook.com/rubixstudios)\n",
-    "_searchMeta": {
-      "cleanContent": "banner documents documents is a lightweight modular starter kit built with next js react tailwind css and typescript it s designed to help you launch structured professional documentation without spending time on boilerplate whether you re building product manuals internal systems guides or dev documentation documents gives you a clean foundation that s easy to extend and maintain why use documents this kit was built to simplify how teams manage and publish documentation it works across projects of all sizes from a single readme to enterprise knowledge bases with mdx reusable components and tailwind styling it keeps your workflow efficient without compromising flexibility use it for: product guides setup usage and troubleshooting internal docs processes policies and team references technical manuals apis sdks architecture walkthroughs customize the ui and structure to match your brand or workflow no lock-in core features feature description------------------------------------ ---------------------------------------------------------------------------write in markdown mdx combine markdown with components and mermaid js for rich content flexible navigation multi-level menus page hierarchy and auto-generated tocs code support syntax highlighting code tabs and one-click copy search fuzzy matching with highlight and instant results responsive design built-in light dark mode with mobile support math tables latex rendering and clean table styling seo defaults preconfigured meta open graph and structured data ai docs upcoming ai tools for smart search and content generation coming soon using this kit navigation is on the left pages flow from setup to advanced features but you re free to jump around use the table of contents on the right to skip through sections start with the installation guide community support got questions reach out via: github twitter facebook",
-      "headings": [
-        "Documents",
-        "Why use Documents?",
-        "Core Features",
-        "Using This Kit",
-        "Community Support"
-      ],
-      "keywords": [
-        "introduction",
-        "guide",
-        "nextjs",
-        "documents",
-        "Documents",
-        "Why use Documents?",
-        "Core Features",
-        "Using This Kit",
-        "Community Support",
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "TypeScript",
-        "Product Guides",
-        "Internal Docs",
-        "Technical Manuals",
-        "Write in Markdown/MDX",
-        "Flexible Navigation",
-        "Code Support",
-        "Search",
-        "Responsive Design",
-        "Math + Tables",
-        "SEO Defaults",
-        "AI Docs (Upcoming)"
-      ]
-    }
-  },
-  {
-    "slug": "/basic-setup/installation",
-    "title": "Installation",
-    "description": "This guide covers the installation of Documents and how to edit your new project.",
-    "content": "To install and edit the Documents, you need to have several prerequisites in place. Here's a list of all the essential pre-requisites\nfor setting up and working on this project.\n\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents\\&project-name=my-documents\\&repository-name=my-documents\\&demo-title=Documents\\&demo-description=This%20Document%20Starter%20Kit%20is%20developed%20with%20Next.js%2C%20Tailwind%20CSS%20and%20TypeScript.%20It%20serves%20as%20a%20flexible%20and%20scalable%20foundation%20for%20building%20documentation%20websites%20or%20content-driven%20projects.\\&demo-url=https%3A%2F%2Frubix-documents.vercel.app%2F\\&demo-image=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents%2Fblob%2Fmain%2Fpublic%2Fscreens%2Fscreen-1.png)\n\n## Prerequisites\n\n## Installation\n\n## Optional\n\n## Important Information\n\nThe project's search functionality relies on the Husky's automation to build `search-data/documents.json` ensure git commit is performed to generate this file.\n",
-    "_searchMeta": {
-      "cleanContent": "to install and edit the documents you need to have several prerequisites in place here s a list of all the essential pre-requisites for setting up and working on this project deploy with vercel https: vercel com new clone repository-url https 3a 2f 2fgithub com 2frubixvi 2frubix-documents project-name my-documents repository-name my-documents demo-title documents demo-description this 20document 20starter 20kit 20is 20developed 20with 20next js 2c 20tailwind 20css 20and 20typescript 20it 20serves 20as 20a 20flexible 20and 20scalable 20foundation 20for 20building 20documentation 20websites 20or 20content-driven 20projects demo-url https 3a 2f 2frubix-documents vercel app 2f demo-image https 3a 2f 2fgithub com 2frubixvi 2frubix-documents 2fblob 2fmain 2fpublic 2fscreens 2fscreen-1 png prerequisites installation optional important information the project s search functionality relies on the husky s automation to build search-data documents json ensure git commit is performed to generate this file",
-      "headings": [
-        "Prerequisites",
-        "Installation",
-        "Optional",
-        "Important Information"
-      ],
-      "keywords": [
-        "installation",
-        "github",
-        "node",
-        "guide",
-        "nextjs",
-        "documents",
-        "Prerequisites",
-        "Installation",
-        "Optional",
-        "Important Information",
-        "search-data/documents.json"
-      ]
-    }
-  },
-  {
-    "slug": "/basic-setup/setup",
-    "title": "Setup",
-    "description": "Setting up and configuring your documentation project",
-    "content": "Setting up your new documentation project is straightforward. Most of the essential project settings can be configured within the `settings` folder.\n\n## Settings\n\nThis section provides the core settings for your documentation site, such as defining the site's URL, site icon and title.\n\n```tsx showLineNumbers\nexport const url = \"\"                 // The URL for your documentation site\nexport const siteicon = \"\"            // Icon displayed next to the site name in the header\nexport const sitename = \"\"            // Title of your documentation site\n```\n\n## Google Tags\n\nThis section allows you to integrate Google Tag Manager into your documentation project. You can add your GTM code and configure whether it's connected.\n\n```tsx showLineNumbers\nexport const gtm = \"\"                 // Add your Google Tag Manager code here\nexport const gtmconnected = true      // Set to true if GTM is connected, otherwise set to false\n```\n\n## Search Engine\n\nConfigure essential SEO settings to ensure your documentation site is optimized for search engines. This includes meta descriptions, keywords and social media sharing details like images and alt text.\n\n```tsx showLineNumbers\nexport const description = \"\"         // Description of your documentation site for SEO\nexport const keywords = [\"\", \"\"]      // List of SEO keywords for your documentation site\nexport const urlimage = \"\"            // The URL of the image used when sharing on social media)\nexport const imagealt = \"\"            // Alt text for shared images, helpful for screen readers\nexport const twitterhandle = \"\"       // Your company’s Twitter handle for social sharing\n```\n\n## Footer Branding\n\nThe footer settings allow you to customize the company information displayed at the bottom of the site. You can add the company name and the URL that the name will link to.\n\n```tsx showLineNumbers\nexport const companyname = \"\"         // The company name displayed in the copyright section\nexport const companylink = \"\"         // The URL your company name should link to\n```\n\n## General Layout\n\nThe layout settings control the appearance and functionality of various elements of the documentation site, such as branding, the right sidebar, feedback options, table of contents, and scroll-to-top functionality.\n\n```tsx showLineNumbers\nexport const branding = true          // Set to true to display our branding elements\nexport const rightsidebar = true      // Set to true to enable the right sidebar with feedback, table of contents and scroll-to-top\nexport const feedbackedit = true      // Control to enable/disable feedback on GitHub\nexport const tableofcontent = true    // Control to enable/disable the generated table of contents\nexport const totopscroll = true       // Control to enable/disable scroll-to-top button\n```\n\n## Github Control\n\nIf your MDX files are hosted on GitHub, you can configure the project to load documents directly from there. This option can be useful for syncing documentation updates directly with your repository.\n\n```tsx showLineNumbers\nexport const loadfromgithub = false   // Set to true to load your MDX documents directly from GitHub\n```\n\n## Project Structure\n",
-    "_searchMeta": {
-      "cleanContent": "setting up your new documentation project is straightforward most of the essential project settings can be configured within the settings folder settings this section provides the core settings for your documentation site such as defining the site s url site icon and title google tags this section allows you to integrate google tag manager into your documentation project you can add your gtm code and configure whether it s connected search engine configure essential seo settings to ensure your documentation site is optimized for search engines this includes meta descriptions keywords and social media sharing details like images and alt text footer branding the footer settings allow you to customize the company information displayed at the bottom of the site you can add the company name and the url that the name will link to general layout the layout settings control the appearance and functionality of various elements of the documentation site such as branding the right sidebar feedback options table of contents and scroll-to-top functionality github control if your mdx files are hosted on github you can configure the project to load documents directly from there this option can be useful for syncing documentation updates directly with your repository project structure",
-      "headings": [
-        "Settings",
-        "Google Tags",
-        "Search Engine",
-        "Footer Branding",
-        "General Layout",
-        "Github Control",
-        "Project Structure"
-      ],
-      "keywords": [
-        "setup",
-        "configuration",
-        "layout",
-        "Google",
-        "SEO",
-        "nextjs",
-        "documents",
-        "Settings",
-        "Google Tags",
-        "Search Engine",
-        "Footer Branding",
-        "General Layout",
-        "Github Control",
-        "Project Structure",
-        "settings",
-        "tsx showLineNumbers\nexport const url = \"\"                 // The URL for your documentation site\nexport const siteicon = \"\"            // Icon displayed next to the site name in the header\nexport const sitename = \"\"            // Title of your documentation site",
-        "## Google Tags\n\nThis section allows you to integrate Google Tag Manager into your documentation project. You can add your GTM code and configure whether it's connected.",
-        "tsx showLineNumbers\nexport const gtm = \"\"                 // Add your Google Tag Manager code here\nexport const gtmconnected = true      // Set to true if GTM is connected, otherwise set to false",
-        "## Search Engine\n\nConfigure essential SEO settings to ensure your documentation site is optimized for search engines. This includes meta descriptions, keywords and social media sharing details like images and alt text.",
-        "tsx showLineNumbers\nexport const description = \"\"         // Description of your documentation site for SEO\nexport const keywords = [\"\", \"\"]      // List of SEO keywords for your documentation site\nexport const urlimage = \"\"            // The URL of the image used when sharing on social media)\nexport const imagealt = \"\"            // Alt text for shared images, helpful for screen readers\nexport const twitterhandle = \"\"       // Your company’s Twitter handle for social sharing",
-        "## Footer Branding\n\nThe footer settings allow you to customize the company information displayed at the bottom of the site. You can add the company name and the URL that the name will link to.",
-        "tsx showLineNumbers\nexport const companyname = \"\"         // The company name displayed in the copyright section\nexport const companylink = \"\"         // The URL your company name should link to",
-        "## General Layout\n\nThe layout settings control the appearance and functionality of various elements of the documentation site, such as branding, the right sidebar, feedback options, table of contents, and scroll-to-top functionality.",
-        "tsx showLineNumbers\nexport const branding = true          // Set to true to display our branding elements\nexport const rightsidebar = true      // Set to true to enable the right sidebar with feedback, table of contents and scroll-to-top\nexport const feedbackedit = true      // Control to enable/disable feedback on GitHub\nexport const tableofcontent = true    // Control to enable/disable the generated table of contents\nexport const totopscroll = true       // Control to enable/disable scroll-to-top button",
-        "## Github Control\n\nIf your MDX files are hosted on GitHub, you can configure the project to load documents directly from there. This option can be useful for syncing documentation updates directly with your repository.",
-        "tsx showLineNumbers\nexport const loadfromgithub = false   // Set to true to load your MDX documents directly from GitHub"
-      ]
-    }
-  },
-  {
     "slug": "/markdown/cards",
     "title": "Cards",
     "description": "Explore and implement various card styles, including small, large and image cards.",
-    "content": "This section introduces the different card styles available in the system, from compact small cards to visually rich image cards. Each example is paired with JSX code snippets, providing you with a practical guide to incorporate these components seamlessly into your project.\n\n## Small Card\n\n```jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/basic-setup/installation\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n    description=\"test description\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/basic-setup/setup\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://rubixstudios.com.au\"\n    icon=\"alignJustify\"\n    external={true}\n    variant=\"small\"\n  />\n</CardGrid>\n```\n\n## Large Card\n\n```jsx\n<CardGrid>\n  <Card\n    subtitle=\"Instructions\"\n    title=\"Installation\"\n    description=\"Get started with Documents using our quick start installation guide to get your project started.\"\n    href=\"/docs/basic-setup/installation\"\n  />\n  <Card\n    subtitle=\"Setup\"\n    title=\"Site Settings\"\n    description=\"Setting up your Documents projects layout, links and search engine optimisation.\"\n    href=\"/docs/basic-setup/setup\"\n  />\n  <Card\n    subtitle=\"Support\"\n    title=\"Rubix Studios\"\n    description=\"Australia's leading branding, marketing and web development company.\"\n    href=\"https://rubixstudios.com.au\"\n    external={true}\n  />\n</CardGrid>\n```\n\n## Image Card\n\n```jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/introduction/installation\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/introduction/setup\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://www.rubixstudios.com.au\"\n    image=\"/images/og-image.png\"\n    external={true}\n    variant=\"image\"\n  />\n</CardGrid>\n```\n",
+    "content": "This section introduces the different card styles available in the system, from compact small cards to visually rich image cards. Each example is paired with JSX code snippets, providing you with a practical guide to incorporate these components seamlessly into your project.\n\n## Small Card\n\n```jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/resource-home/installation\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n    description=\"test description\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/resource-home/setup\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://rubixstudios.com.au\"\n    icon=\"alignJustify\"\n    external={true}\n    variant=\"small\"\n  />\n</CardGrid>\n```\n\n## Large Card\n\n```jsx\n<CardGrid>\n  <Card\n    subtitle=\"Instructions\"\n    title=\"Installation\"\n    description=\"Get started with Documents using our quick start installation guide to get your project started.\"\n    href=\"/docs/resource-home/installation\"\n  />\n  <Card\n    subtitle=\"Setup\"\n    title=\"Site Settings\"\n    description=\"Setting up your Documents projects layout, links and search engine optimisation.\"\n    href=\"/docs/resource-home/setup\"\n  />\n  <Card\n    subtitle=\"Support\"\n    title=\"Rubix Studios\"\n    description=\"Australia's leading branding, marketing and web development company.\"\n    href=\"https://rubixstudios.com.au\"\n    external={true}\n  />\n</CardGrid>\n```\n\n## Image Card\n\n```jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/introduction/installation\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/introduction/setup\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://www.rubixstudios.com.au\"\n    image=\"/images/og-image.png\"\n    external={true}\n    variant=\"image\"\n  />\n</CardGrid>\n```\n",
     "_searchMeta": {
       "cleanContent": "this section introduces the different card styles available in the system from compact small cards to visually rich image cards each example is paired with jsx code snippets providing you with a practical guide to incorporate these components seamlessly into your project small card large card image card",
       "headings": [
@@ -165,9 +15,9 @@
         "Small Card",
         "Large Card",
         "Image Card",
-        "jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/basic-setup/installation\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n    description=\"test description\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/basic-setup/setup\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://rubixstudios.com.au\"\n    icon=\"alignJustify\"\n    external={true}\n    variant=\"small\"\n  />\n</CardGrid>",
+        "jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/resource-home/installation\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n    description=\"test description\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/resource-home/setup\"\n    icon=\"alignJustify\"\n    variant=\"small\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://rubixstudios.com.au\"\n    icon=\"alignJustify\"\n    external={true}\n    variant=\"small\"\n  />\n</CardGrid>",
         "## Large Card",
-        "jsx\n<CardGrid>\n  <Card\n    subtitle=\"Instructions\"\n    title=\"Installation\"\n    description=\"Get started with Documents using our quick start installation guide to get your project started.\"\n    href=\"/docs/basic-setup/installation\"\n  />\n  <Card\n    subtitle=\"Setup\"\n    title=\"Site Settings\"\n    description=\"Setting up your Documents projects layout, links and search engine optimisation.\"\n    href=\"/docs/basic-setup/setup\"\n  />\n  <Card\n    subtitle=\"Support\"\n    title=\"Rubix Studios\"\n    description=\"Australia's leading branding, marketing and web development company.\"\n    href=\"https://rubixstudios.com.au\"\n    external={true}\n  />\n</CardGrid>",
+        "jsx\n<CardGrid>\n  <Card\n    subtitle=\"Instructions\"\n    title=\"Installation\"\n    description=\"Get started with Documents using our quick start installation guide to get your project started.\"\n    href=\"/docs/resource-home/installation\"\n  />\n  <Card\n    subtitle=\"Setup\"\n    title=\"Site Settings\"\n    description=\"Setting up your Documents projects layout, links and search engine optimisation.\"\n    href=\"/docs/resource-home/setup\"\n  />\n  <Card\n    subtitle=\"Support\"\n    title=\"Rubix Studios\"\n    description=\"Australia's leading branding, marketing and web development company.\"\n    href=\"https://rubixstudios.com.au\"\n    external={true}\n  />\n</CardGrid>",
         "## Image Card",
         "jsx\n<CardGrid>\n  <Card\n    title=\"Instructions\"\n    href=\"/docs/introduction/installation\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Setup\"\n    href=\"/docs/introduction/setup\"\n    image=\"/images/og-image.png\"\n    variant=\"image\"\n  />\n  <Card\n    title=\"Rubix Studios\"\n    href=\"https://www.rubixstudios.com.au\"\n    image=\"/images/og-image.png\"\n    external={true}\n    variant=\"image\"\n  />\n</CardGrid>"
       ]
@@ -367,6 +217,81 @@
     }
   },
   {
+    "slug": "/meeting-guides/consortium",
+    "title": "Consortium",
+    "description": "This page covers the procedures for consortium meetings.",
+    "content": "## Scheduling\n\nConsortium meetings should be held at least once a month, with the exact date decided by the Co-Presidents and Secretary as needed each month in order to accommodate the schedules of attendees. Upon scheduling consortium, the Secretary should send out a meeting reminder to all ASEC members and consortium attendees at least one (1) week before the scheduled meeting time.\n\n## Guidelines\n\nConsortium meetings are intended as a space for clubs to collaborate and share information, in order to promote cooperation and mutual support among the participating school clubs, address any issues or concerns, and avoid scheduling conflicts between club events. The Co-Presidents and Secretary should ensure that the meetings are held in a safe and inclusive environment for all attendees, and that all attendees feel comfortable sharing their thoughts and opinions.\n\n## Attendance & Venue\n\nConsortium meeting attendees include all ASEC members, the teacher supervisor of ASEC, as well as at least one (1) delegate from each school club (all clubs must send a delegate). The consortium should be held in a large room capable of fitting all attendees, with a projector, microphone, appropriate seating and optional podium. The seating should be arranged in a layout that resembles the image below (within the constraints of the room).\n\n<img src=\"/images/consortium-layout.png\" alt=\"Consortium Layout\" className=\"w-sm my-4 rounded-lg shadow-md\" />\n",
+    "_searchMeta": {
+      "cleanContent": "scheduling consortium meetings should be held at least once a month with the exact date decided by the co-presidents and secretary as needed each month in order to accommodate the schedules of attendees upon scheduling consortium the secretary should send out a meeting reminder to all asec members and consortium attendees at least one 1 week before the scheduled meeting time guidelines consortium meetings are intended as a space for clubs to collaborate and share information in order to promote cooperation and mutual support among the participating school clubs address any issues or concerns and avoid scheduling conflicts between club events the co-presidents and secretary should ensure that the meetings are held in a safe and inclusive environment for all attendees and that all attendees feel comfortable sharing their thoughts and opinions attendance venue consortium meeting attendees include all asec members the teacher supervisor of asec as well as at least one 1 delegate from each school club all clubs must send a delegate the consortium should be held in a large room capable of fitting all attendees with a projector microphone appropriate seating and optional podium the seating should be arranged in a layout that resembles the image below within the constraints of the room img src images consortium-layout png alt consortium layout classname w-sm my-4 rounded-lg shadow-md",
+      "headings": [
+        "Scheduling",
+        "Guidelines",
+        "Attendance & Venue"
+      ],
+      "keywords": [
+        "meetings",
+        "consortium",
+        "procedures",
+        "guide",
+        "Scheduling",
+        "Guidelines",
+        "Attendance & Venue"
+      ]
+    }
+  },
+  {
+    "slug": "/meeting-guides",
+    "title": "Installationaoihsodih",
+    "description": "This guide covers the installation of Documents and how to edit your new project.",
+    "content": "To install and edit the Documents, you need to have several prerequisites in place. Here's a list of all the essential pre-requisites\nfor setting up and working on this project.\n\n[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents\\&project-name=my-documents\\&repository-name=my-documents\\&demo-title=Documents\\&demo-description=This%20Document%20Starter%20Kit%20is%20developed%20with%20Next.js%2C%20Tailwind%20CSS%20and%20TypeScript.%20It%20serves%20as%20a%20flexible%20and%20scalable%20foundation%20for%20building%20documentation%20websites%20or%20content-driven%20projects.\\&demo-url=https%3A%2F%2Frubix-documents.vercel.app%2F\\&demo-image=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents%2Fblob%2Fmain%2Fpublic%2Fscreens%2Fscreen-1.png)\n\n## Prerequisites\n\n## Installation\n\n## Optional\n\n## Important Information\n\nThe project's search functionality relies on the Husky's automation to build `search-data/documents.json` ensure git commit is performed to generate this file.\n",
+    "_searchMeta": {
+      "cleanContent": "to install and edit the documents you need to have several prerequisites in place here s a list of all the essential pre-requisites for setting up and working on this project deploy with vercel https: vercel com new clone repository-url https 3a 2f 2fgithub com 2frubixvi 2frubix-documents project-name my-documents repository-name my-documents demo-title documents demo-description this 20document 20starter 20kit 20is 20developed 20with 20next js 2c 20tailwind 20css 20and 20typescript 20it 20serves 20as 20a 20flexible 20and 20scalable 20foundation 20for 20building 20documentation 20websites 20or 20content-driven 20projects demo-url https 3a 2f 2frubix-documents vercel app 2f demo-image https 3a 2f 2fgithub com 2frubixvi 2frubix-documents 2fblob 2fmain 2fpublic 2fscreens 2fscreen-1 png prerequisites installation optional important information the project s search functionality relies on the husky s automation to build search-data documents json ensure git commit is performed to generate this file",
+      "headings": [
+        "Prerequisites",
+        "Installation",
+        "Optional",
+        "Important Information"
+      ],
+      "keywords": [
+        "installation",
+        "github",
+        "node",
+        "guide",
+        "nextjs",
+        "documents",
+        "Prerequisites",
+        "Installation",
+        "Optional",
+        "Important Information",
+        "search-data/documents.json"
+      ]
+    }
+  },
+  {
+    "slug": "/meeting-guides/internal-meetings",
+    "title": "Internal Meetings",
+    "description": "This page covers the procedures for internal ASEC meetings.",
+    "content": "## Scheduling\n\nAt the beginning of each term, the Co-Presidents should decide what day of the week that internal meetings should be held on, in order to avoid scheduling conflicts with other activities for the ASEC members.\n\n**Note:** Internal ASEC meetings should run weekly. The Co-Presidents may change the day of the week that internal meetings are held on after the term starts in order to accommodate any changes, but they should not change the frequency of the meetings.\n\n## Guidelines\n\nInternal ASEC meetings are intended to be a space for the ASEC members to discuss any issues, events, policies and concerns, and to provide support to each other on their council-work. Internal meetings may also be used to provide updates on ASEC-invloved matters and review requests from the consortium.\nThese meetings are not intended to be held in a public forum, and are not to have spectators present (IE. no non-ASEC members should be present at internal meetings). The Co-Presidents and Secretary should ensure that the meetings are held in a safe and inclusive environment for all ASEC members, and that all members feel comfortable sharing their thoughts and opinions. Meeting reminders should be sent out via email to all ASEC members at least 24 hours before the scheduled meeting time, and the meeting agenda should be distributed at the start of the meeting.\n\n## Attendance\n\nThe only people who may be present during an internal ASEC meeting are the Co-Presidents, the Secretary, Grade Representatives, Communications Lead, Student Wellbeing Lead, and any official advisors. The teacher supervisor of ASEC may also attend if they with to do so. No quorum is required for an internal meeting to take place, however a meeting may be disbanded by the member(s) in charge of the meeting if they feel that there are not enough members present to have a productive meeting. If a member is unable to attend an internal meeting, they should notify the Co-Presidents or Secretary as soon as possible, and provide any relevant updates or information that they would like to be discussed during the meeting.\n",
+    "_searchMeta": {
+      "cleanContent": "scheduling at the beginning of each term the co-presidents should decide what day of the week that internal meetings should be held on in order to avoid scheduling conflicts with other activities for the asec members note: internal asec meetings should run weekly the co-presidents may change the day of the week that internal meetings are held on after the term starts in order to accommodate any changes but they should not change the frequency of the meetings guidelines internal asec meetings are intended to be a space for the asec members to discuss any issues events policies and concerns and to provide support to each other on their council-work internal meetings may also be used to provide updates on asec-invloved matters and review requests from the consortium these meetings are not intended to be held in a public forum and are not to have spectators present ie no non-asec members should be present at internal meetings the co-presidents and secretary should ensure that the meetings are held in a safe and inclusive environment for all asec members and that all members feel comfortable sharing their thoughts and opinions meeting reminders should be sent out via email to all asec members at least 24 hours before the scheduled meeting time and the meeting agenda should be distributed at the start of the meeting attendance the only people who may be present during an internal asec meeting are the co-presidents the secretary grade representatives communications lead student wellbeing lead and any official advisors the teacher supervisor of asec may also attend if they with to do so no quorum is required for an internal meeting to take place however a meeting may be disbanded by the member s in charge of the meeting if they feel that there are not enough members present to have a productive meeting if a member is unable to attend an internal meeting they should notify the co-presidents or secretary as soon as possible and provide any relevant updates or information that they would like to be discussed during the meeting",
+      "headings": [
+        "Scheduling",
+        "Guidelines",
+        "Attendance"
+      ],
+      "keywords": [
+        "meetings",
+        "internal",
+        "procedures",
+        "guide",
+        "Scheduling",
+        "Guidelines",
+        "Attendance",
+        "Note:"
+      ]
+    }
+  },
+  {
     "slug": "/navigation",
     "title": "Navigation",
     "description": "How to build our your documents menu and navigations.",
@@ -402,6 +327,111 @@
         "Blockquotes",
         "Code Examples with switch",
         "Conclusion"
+      ]
+    }
+  },
+  {
+    "slug": "/resource-home/clubs",
+    "title": "Clubs",
+    "description": "A list of all clubs at Aldershot School.",
+    "content": "| **Club** | **Delegate** | **Description** |\n| --- | --- | --- |\n| Aldershot Drama | Vacant |  |\n| Aldershot Athletic Association | Vacant |  |\n| DECA | Vacant |  |\n| ECO Club | Vacant |  |\n| HOSA | Vacant |  |\n| Green Machine | Vacant |  |\n| Lions Pride | Vacant |  |\n| Muslim Student Association | Vacant |  |\n| Robotics Club | Vacant |  |\n| Wellbeing Team | Vacant |  |\n| Hindu Student Association | Vacant |  |\n| Pagan Student Association | Vacant |  |\n| Drumline | Vacant |  |\n| Arts Club | Vacant |  |\n| Astronomy Club | Vacant |  |\n| Coding Club | Vacant |  |\n| Chess Club | Vacant |  |\n| DND Club | Vacant |  |\n| Writing Club | Vacant |  |\n| Aldershot Choir | Araoluwa \"Atara\" Ajetunmobi |  |\n",
+    "_searchMeta": {
+      "cleanContent": "club delegate description--- --- ---aldershot drama vacantaldershot athletic association vacantdeca vacanteco club vacanthosa vacantgreen machine vacantlions pride vacantmuslim student association vacantrobotics club vacantwellbeing team vacanthindu student association vacantpagan student association vacantdrumline vacantarts club vacantastronomy club vacantcoding club vacantchess club vacantdnd club vacantwriting club vacantaldershot choir araoluwa atara ajetunmobi",
+      "headings": [],
+      "keywords": [
+        "clubs",
+        "list",
+        "consortium",
+        "Club",
+        "Delegate",
+        "Description"
+      ]
+    }
+  },
+  {
+    "slug": "/resource-home",
+    "title": "Resource Home",
+    "description": "This is the homepage for the ASEC resource portal. You can find most important links and resources here.",
+    "content": "![Banner](/images/banner.png \"Documents\")\n\n## Documents\n\nBelow are links to some important documents you can find on this site.\n\n## Why use Documents?\n\nThis kit was built to simplify how teams manage and publish documentation. It works across projects of all sizes—from a single\nreadme to enterprise knowledge bases.\n\nWith MDX, reusable components, and Tailwind styling, it keeps your workflow efficient without compromising flexibility.\n\nUse it for:\n\n* **Product Guides** – Setup, usage, and troubleshooting\n* **Internal Docs** – Processes, policies, and team references\n* **Technical Manuals** – APIs, SDKs, architecture walkthroughs\n\nCustomize the UI and structure to match your brand or workflow—no lock-in.\n\n## Core Features\n\n| Feature                              | Description                                                                 |\n| ------------------------------------ | --------------------------------------------------------------------------- |\n| **Write in Markdown/MDX**            | Combine Markdown with components and Mermaid.js for rich content.           |\n| **Flexible Navigation**              | Multi-level menus, page hierarchy, and auto-generated TOCs.                 |\n| **Code Support**                     | Syntax highlighting, code tabs, and one-click copy.                         |\n| **Search**                           | Fuzzy matching with highlight and instant results.                          |\n| **Responsive Design**                | Built-in light/dark mode with mobile support.                               |\n| **Math + Tables**                    | LaTeX rendering and clean table styling.                                    |\n| **SEO Defaults**                     | Preconfigured meta, Open Graph, and structured data.                        |\n| **AI Docs (Upcoming)**               | AI tools for smart search and content generation (coming soon).             |\n\n## Using This Kit\n\nNavigation is on the left. Pages flow from setup to advanced features, but you're free to jump around.\n\nUse the table of contents on the right to skip through sections.\n\nStart with the [Installation Guide](/docs/resource-home/installation).\n\n## Community Support\n\nGot questions? Reach out via:\n\n* [GitHub](https://github.com/rubixvi/rubix-documents)\n* [Twitter](https://x.com/rubixstory)\n* [Facebook](https://www.facebook.com/rubixstudios)\n",
+    "_searchMeta": {
+      "cleanContent": "banner documents below are links to some important documents you can find on this site why use documents this kit was built to simplify how teams manage and publish documentation it works across projects of all sizes from a single readme to enterprise knowledge bases with mdx reusable components and tailwind styling it keeps your workflow efficient without compromising flexibility use it for: product guides setup usage and troubleshooting internal docs processes policies and team references technical manuals apis sdks architecture walkthroughs customize the ui and structure to match your brand or workflow no lock-in core features feature description------------------------------------ ---------------------------------------------------------------------------write in markdown mdx combine markdown with components and mermaid js for rich content flexible navigation multi-level menus page hierarchy and auto-generated tocs code support syntax highlighting code tabs and one-click copy search fuzzy matching with highlight and instant results responsive design built-in light dark mode with mobile support math tables latex rendering and clean table styling seo defaults preconfigured meta open graph and structured data ai docs upcoming ai tools for smart search and content generation coming soon using this kit navigation is on the left pages flow from setup to advanced features but you re free to jump around use the table of contents on the right to skip through sections start with the installation guide community support got questions reach out via: github twitter facebook",
+      "headings": [
+        "Documents",
+        "Why use Documents?",
+        "Core Features",
+        "Using This Kit",
+        "Community Support"
+      ],
+      "keywords": [
+        "introduction",
+        "guide",
+        "nextjs",
+        "documents",
+        "Documents",
+        "Why use Documents?",
+        "Core Features",
+        "Using This Kit",
+        "Community Support",
+        "Product Guides",
+        "Internal Docs",
+        "Technical Manuals",
+        "Write in Markdown/MDX",
+        "Flexible Navigation",
+        "Code Support",
+        "Search",
+        "Responsive Design",
+        "Math + Tables",
+        "SEO Defaults",
+        "AI Docs (Upcoming)"
+      ]
+    }
+  },
+  {
+    "slug": "/resource-home/members",
+    "title": "Members",
+    "description": "This is a list of all the current members of ASEC.",
+    "content": "Members are split into 3 catagories in order of seniority: Senior Leadership, Associate (Assoc.) Leadership, and Official Advisors.\n\n## Senior Leadership\n\nThe highest ranked managing members of ASEC (based on administrative responsibilities and seniority). These members are responsible for tasks including high level decision making, overseeing the general operations of ASEC, providing support to the rest of the council, and/or representing a constituency.\n\n## Assoc. Leadership\n\nThe intermediate ranked managing members of ASEC (based on administrative responsibilities and seniority). These members are responsible for managing their own specialized teams and providing support to the rest of the council.\n\n***\n\n## Official Advisors\n\nThe Official Advisors are a non-managing category of members within ASEC. They are responsible for providing support and advice to their respective council members, but don't make administrative decisions. They may perform certain tasks as delegated by their respective council members and approved by a Co-President.\n",
+    "_searchMeta": {
+      "cleanContent": "members are split into 3 catagories in order of seniority: senior leadership associate assoc leadership and official advisors senior leadership the highest ranked managing members of asec based on administrative responsibilities and seniority these members are responsible for tasks including high level decision making overseeing the general operations of asec providing support to the rest of the council and or representing a constituency assoc leadership the intermediate ranked managing members of asec based on administrative responsibilities and seniority these members are responsible for managing their own specialized teams and providing support to the rest of the council official advisors the official advisors are a non-managing category of members within asec they are responsible for providing support and advice to their respective council members but don t make administrative decisions they may perform certain tasks as delegated by their respective council members and approved by a co-president",
+      "headings": [
+        "Senior Leadership",
+        "Assoc. Leadership",
+        "Official Advisors"
+      ],
+      "keywords": [
+        "installation",
+        "github",
+        "node",
+        "guide",
+        "nextjs",
+        "documents",
+        "Senior Leadership",
+        "Assoc. Leadership",
+        "Official Advisors"
+      ]
+    }
+  },
+  {
+    "slug": "/resource-home/schedule",
+    "title": "Schedule",
+    "description": "The schedule for upcoming meetings and events.",
+    "content": "| **Date** | **Event** | **Description** |\n| --- | --- | --- |\n| June 8, 2026 | Internal Meeting #1 | First internal meeting to prep for the 2026-2027 term. |\n",
+    "_searchMeta": {
+      "cleanContent": "date event description--- --- ---june 8 2026 internal meeting 1 first internal meeting to prep for the 2026-2027 term",
+      "headings": [],
+      "keywords": [
+        "schedule",
+        "events",
+        "meetings",
+        "internal",
+        "consortium",
+        "calendar",
+        "upcoming",
+        "important",
+        "dates",
+        "Date",
+        "Event",
+        "Description"
       ]
     }
   },
@@ -443,9 +473,9 @@
     "slug": "/structure/deep",
     "title": "Introduction",
     "description": "This section provides an overview of Introduction.",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\r\n| :------------ | :---------: | ----------: |\r\n| Header        |    Title    | Here's this |\r\n| Paragraph     |    Text     |    And more |\r\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n\n## Tabs Example\n",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n* \\[x] Write the press release\n* \\[ ] Update the website\n* \\[ ] Contact the media\n\n| Syntax        | Description |   Test Text |\n| :------------ | :---------: | ----------: |\n| Header        |    Title    | Here's this |\n| Paragraph     |    Text     |    And more |\n| Strikethrough |             |    ~~Text~~ |\n\n## Getting Started\n\nTo begin using the Documentation Template, follow these simple steps:\n\n* Start by cloning the repository to your local machine.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.\n\n## Blockquotes\n\nBlockquotes are useful for emphasizing key points or quoting external sources:\n\n> \"Documentation is a love letter that you write to your future self.\" - Damian Conway\n\nFeel free to use blockquotes to highlight important information or quotes relevant to your documentation.\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n\n## Conclusion\n\nThank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!\n\n## Tabs Example\n",
     "_searchMeta": {
-      "cleanContent": "lorem ipsum dolor sit amet consectetur adipisicing elit numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime molestiae facilis aperiam et error illum vel ullam quis architecto dolore ullam x write the press release update the website contact the media syntax description test text :------------ :---------: ----------: header title here s this paragraph text and more strikethrough text getting started to begin using the documentation template follow these simple steps: start by cloning the repository to your local machine lorem ipsum dolor sit amet consectetur adipisicing elit reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium optio necessitatibus sequi veritatis aspernatur possimus quis repellat eum vitae eveniet blockquotes blockquotes are useful for emphasizing key points or quoting external sources: documentation is a love letter that you write to your future self - damian conway feel free to use blockquotes to highlight important information or quotes relevant to your documentation code examples with switch here a custom tab component from shadcn ui is used conclusion thank you for choosing the documentation template for your project whether you re documenting software apis or processes we re here to support you in creating clear and effective documentation happy documenting tabs example",
+      "cleanContent": "lorem ipsum dolor sit amet consectetur adipisicing elit numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime molestiae facilis aperiam et error illum vel ullam quis architecto dolore ullam x write the press release update the website contact the media syntax description test text:------------ :---------: ----------:header title here s thisparagraph text and morestrikethrough text getting started to begin using the documentation template follow these simple steps: start by cloning the repository to your local machine lorem ipsum dolor sit amet consectetur adipisicing elit reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium optio necessitatibus sequi veritatis aspernatur possimus quis repellat eum vitae eveniet blockquotes blockquotes are useful for emphasizing key points or quoting external sources: documentation is a love letter that you write to your future self - damian conway feel free to use blockquotes to highlight important information or quotes relevant to your documentation code examples with switch here a custom tab component from shadcn ui is used conclusion thank you for choosing the documentation template for your project whether you re documenting software apis or processes we re here to support you in creating clear and effective documentation happy documenting tabs example",
       "headings": [
         "Getting Started",
         "Blockquotes",
