@@ -10,9 +10,9 @@ export const description =
 export const keywords = ['Next.js', 'documentation', 'ASEC', 'open source', 'SEO']
 export const urlimage = '/images/og-image.png'
 export const imagealt = 'ASEC Resource Portal'
-export const twitterhandle = '@ASEC_ALD'
+export const twitterhandle = '@ALD_ASEC'
 
-export const companyname = 'Aldershot School Executive Council (ASEC)'
+export const companyname = 'Aldershot School Executive Council'
 export const companylink = '/'
 
 export const branding = true
