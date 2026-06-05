@@ -352,37 +352,20 @@
     "slug": "/resource-home",
     "title": "Resource Home",
     "description": "This is the homepage for the ASEC resource portal. You can find most important links and resources here.",
-    "content": "![Banner](/images/banner.png \"Documents\")\n\n## Documents\n\nBelow are links to some important documents you can find on this site.\n\n## Why use Documents?\n\nThis kit was built to simplify how teams manage and publish documentation. It works across projects of all sizes—from a single\nreadme to enterprise knowledge bases.\n\nWith MDX, reusable components, and Tailwind styling, it keeps your workflow efficient without compromising flexibility.\n\nUse it for:\n\n* **Product Guides** – Setup, usage, and troubleshooting\n* **Internal Docs** – Processes, policies, and team references\n* **Technical Manuals** – APIs, SDKs, architecture walkthroughs\n\nCustomize the UI and structure to match your brand or workflow—no lock-in.\n\n## Core Features\n\n| Feature                              | Description                                                                 |\n| ------------------------------------ | --------------------------------------------------------------------------- |\n| **Write in Markdown/MDX**            | Combine Markdown with components and Mermaid.js for rich content.           |\n| **Flexible Navigation**              | Multi-level menus, page hierarchy, and auto-generated TOCs.                 |\n| **Code Support**                     | Syntax highlighting, code tabs, and one-click copy.                         |\n| **Search**                           | Fuzzy matching with highlight and instant results.                          |\n| **Responsive Design**                | Built-in light/dark mode with mobile support.                               |\n| **Math + Tables**                    | LaTeX rendering and clean table styling.                                    |\n| **SEO Defaults**                     | Preconfigured meta, Open Graph, and structured data.                        |\n| **AI Docs (Upcoming)**               | AI tools for smart search and content generation (coming soon).             |\n\n## Using This Kit\n\nNavigation is on the left. Pages flow from setup to advanced features, but you're free to jump around.\n\nUse the table of contents on the right to skip through sections.\n\nStart with the [Installation Guide](/docs/resource-home/installation).\n\n## Community Support\n\nGot questions? Reach out via:\n\n* [GitHub](https://github.com/rubixvi/rubix-documents)\n* [Twitter](https://x.com/rubixstory)\n* [Facebook](https://www.facebook.com/rubixstudios)\n",
+    "content": "![Banner](/images/banner.png \"Documents\")\n\n## Quicklinks\n\nBelow are links to some important documents you can find on this site.\n\n## Site Info\n\nThis site is internal to ASEC and is not intended to be accessed by external parties. It is intended to be a resource for ASEC members to find important information, documents, and resources related to their council work. Do not share your access code with anyone. If you believe your access code has been compromized, please contact the Secretary immediately to have it regenerated.\n",
     "_searchMeta": {
-      "cleanContent": "banner documents below are links to some important documents you can find on this site why use documents this kit was built to simplify how teams manage and publish documentation it works across projects of all sizes from a single readme to enterprise knowledge bases with mdx reusable components and tailwind styling it keeps your workflow efficient without compromising flexibility use it for: product guides setup usage and troubleshooting internal docs processes policies and team references technical manuals apis sdks architecture walkthroughs customize the ui and structure to match your brand or workflow no lock-in core features feature description------------------------------------ ---------------------------------------------------------------------------write in markdown mdx combine markdown with components and mermaid js for rich content flexible navigation multi-level menus page hierarchy and auto-generated tocs code support syntax highlighting code tabs and one-click copy search fuzzy matching with highlight and instant results responsive design built-in light dark mode with mobile support math tables latex rendering and clean table styling seo defaults preconfigured meta open graph and structured data ai docs upcoming ai tools for smart search and content generation coming soon using this kit navigation is on the left pages flow from setup to advanced features but you re free to jump around use the table of contents on the right to skip through sections start with the installation guide community support got questions reach out via: github twitter facebook",
+      "cleanContent": "banner quicklinks below are links to some important documents you can find on this site site info this site is internal to asec and is not intended to be accessed by external parties it is intended to be a resource for asec members to find important information documents and resources related to their council work do not share your access code with anyone if you believe your access code has been compromized please contact the secretary immediately to have it regenerated",
       "headings": [
-        "Documents",
-        "Why use Documents?",
-        "Core Features",
-        "Using This Kit",
-        "Community Support"
+        "Quicklinks",
+        "Site Info"
       ],
       "keywords": [
         "introduction",
         "guide",
         "nextjs",
         "documents",
-        "Documents",
-        "Why use Documents?",
-        "Core Features",
-        "Using This Kit",
-        "Community Support",
-        "Product Guides",
-        "Internal Docs",
-        "Technical Manuals",
-        "Write in Markdown/MDX",
-        "Flexible Navigation",
-        "Code Support",
-        "Search",
-        "Responsive Design",
-        "Math + Tables",
-        "SEO Defaults",
-        "AI Docs (Upcoming)"
+        "Quicklinks",
+        "Site Info"
       ]
     }
   },
