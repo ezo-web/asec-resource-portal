@@ -1,7 +1,7 @@
 export const url = 'https://rubix-documents.vercel.app'
 export const siteicon = '/icon1.png'
 
-export const gtm = 'GTM-FFW86E2D5H'
+export const gtm = 'GTM-K8BXPNQ5'
 export const gtmconnected = true
 
 export const sitename = 'ASEC Resource Portal'
