@@ -1,5 +1,26 @@
 [
   {
+    "slug": "/handling",
+    "title": "Document Handling",
+    "description": "Understand how to handle ASEC documents in accordance with document security and transparency policies.",
+    "content": "## Document Security Levels\n\n| Security, High to Low | Level | Watermark Label | Description |\n|-|-------|----|-------------|\n| 1st | INT2 | INTERNAL COPY, DO NOT DISTRIBUTE, RETURN TO SECRETARY | Intended for meeting documents that are to be returned to the secretary at the end of the meeting |\n| 2nd | INT1 | INTERNAL COPY, DO NOT DISTRIBUTE | Intended for general internal documents that shouldn't be distributed to people outside of ASEC |\n| 3rd | PUB | PUBLIC COPY, DO NOT DISTRIBUTE | Intended for documents that are meant to be given to external parties and not distributed |\n| 4th | REL | RELEASE COPY | Intended for publicly accessable documents which may be distributed freely outside of ASEC |\n\n## Document Types\n\nMost documents handled by ASEC fall into one of the categories in the table below. Most documents will be authored and distributed by the Secretary as the handler of ASEC's information services, though exceptions will be listed.\n\n| Document | Security Level | Author | Distributor |\n|-|-|-|-|\n| Meeting Agenda | INT2 | Secretary/Co-Presidents | Secretary |\n| Meeting Summary | INT1 | Secretary | Secretary |\n| Meeting Notes | INT1 | Secretary | Secretary |\n| Transparency Report | REL | Vice President | Co-Presidents |\n| Monthly Audit | PUB | Secretary | Vice President |\n| Consortium Presentation | INT1 | Secretary/Co-Presidents | Co-Presidents |\n| Internal Policy | INT1 | Grade Representatives | Vice President |\n| Handbook | INT1 | Secretary | Secretary |\n",
+    "_searchMeta": {
+      "cleanContent": "document security levels security high to low level watermark label description- ------- ---- -------------1st int2 internal copy do not distribute return to secretary intended for meeting documents that are to be returned to the secretary at the end of the meeting2nd int1 internal copy do not distribute intended for general internal documents that shouldn t be distributed to people outside of asec3rd pub public copy do not distribute intended for documents that are meant to be given to external parties and not distributed4th rel release copy intended for publicly accessable documents which may be distributed freely outside of asec document types most documents handled by asec fall into one of the categories in the table below most documents will be authored and distributed by the secretary as the handler of asec s information services though exceptions will be listed document security level author distributor- - - -meeting agenda int2 secretary co-presidents secretarymeeting summary int1 secretary secretarymeeting notes int1 secretary secretarytransparency report rel vice president co-presidentsmonthly audit pub secretary vice presidentconsortium presentation int1 secretary co-presidents co-presidentsinternal policy int1 grade representatives vice presidenthandbook int1 secretary secretary",
+      "headings": [
+        "Document Security Levels",
+        "Document Types"
+      ],
+      "keywords": [
+        "document",
+        "security",
+        "transparency",
+        "documents",
+        "Document Security Levels",
+        "Document Types"
+      ]
+    }
+  },
+  {
     "slug": "/markdown/cards",
     "title": "Cards",
     "description": "Explore and implement various card styles, including small, large and image cards.",
@@ -331,6 +352,56 @@
     }
   },
   {
+    "slug": "/reports/monthly-audit",
+    "title": "Monthly Audit",
+    "description": "Understand the monthly auditing process.",
+    "content": "## Frequency\n\nThe monthly audit should be conducted once per month, ideally within the first week of the month to ensure that financial records are up-to-date and accurate.\n\n## Content\n\nThe monthly audit should include the following information:\n\n* A summary of the council's financial transactions for the month (including the same financial details as the transparency report, but for the monthly reporting period)\n* A list of any discrepancies or issues found during the audit, along with an explanation of how they were resolved or will be resolved\n* Any recommendations for improving the council's financial processes or recordkeeping based on the findings of the audit\n* A list of all documents created during the reporting period, including the date of creation, the author, and a brief description of the document's content and purpose\n* A list of all documents that were updated or deleted during the reporting period, including the date of update/deletion, the author, and a brief description of the changes made to the document\n* A summary of the council's financial position at the end of the reporting period, including any significant changes from the previous reporting period\n* A list of internal policies that were created, revised, or retired during the reporting period, along with a brief description of the policy and its purpose\n* A list of event proposals that were submitted by consortium delegates, including the date of submission, the proposing club, and a brief description of the proposed event\n* A list of all events that were held during the reporting period, including the date of the event, the hosting club, and a brief description of the event's activities and outcomes\n* A list of hyperlinks to all meeting notes/summaries that were created during the reporting period, along with the date of the respective meeting\n* Web traffic analytics for the public ASEC website and the internal ASEC resource portal (this site)\n\n## Preparation\n\nThe monthly audit should be prepared by the Secretary. The data in the audit should be collected using automation software where possible, such as linked Google Forms, Google Sheets, Sheetgo, Google Analytics, extensions, and App Scripts, then prepared in Google Data Studio or Google Docs.\n\nThe document should be saved with the following name format: \"ASEC Monthly Audit - \\[Reporting Period]\". It should use the document security level INT1 and the use the appropriate watermark.\n\n## Distribution\n\nOnce the monthly audit has been prepared, it should be distributed digitally to all ASEC members and the teacher supervisor of ASEC. A physical copy of the audit should be printed for use during internal ASEC meetings, kept with the Secretary, and another physical copy should be given to the school Principal. The monthly audit should not be made accessable to the public, and should only be shared within the council and with the school administration.\n",
+    "_searchMeta": {
+      "cleanContent": "frequency the monthly audit should be conducted once per month ideally within the first week of the month to ensure that financial records are up-to-date and accurate content the monthly audit should include the following information: a summary of the council s financial transactions for the month including the same financial details as the transparency report but for the monthly reporting period a list of any discrepancies or issues found during the audit along with an explanation of how they were resolved or will be resolved any recommendations for improving the council s financial processes or recordkeeping based on the findings of the audit a list of all documents created during the reporting period including the date of creation the author and a brief description of the document s content and purpose a list of all documents that were updated or deleted during the reporting period including the date of update deletion the author and a brief description of the changes made to the document a summary of the council s financial position at the end of the reporting period including any significant changes from the previous reporting period a list of internal policies that were created revised or retired during the reporting period along with a brief description of the policy and its purpose a list of event proposals that were submitted by consortium delegates including the date of submission the proposing club and a brief description of the proposed event a list of all events that were held during the reporting period including the date of the event the hosting club and a brief description of the event s activities and outcomes a list of hyperlinks to all meeting notes summaries that were created during the reporting period along with the date of the respective meeting web traffic analytics for the public asec website and the internal asec resource portal this site preparation the monthly audit should be prepared by the secretary the data in the audit should be collected using automation software where possible such as linked google forms google sheets sheetgo google analytics extensions and app scripts then prepared in google data studio or google docs the document should be saved with the following name format: asec monthly audit - reporting period it should use the document security level int1 and the use the appropriate watermark distribution once the monthly audit has been prepared it should be distributed digitally to all asec members and the teacher supervisor of asec a physical copy of the audit should be printed for use during internal asec meetings kept with the secretary and another physical copy should be given to the school principal the monthly audit should not be made accessable to the public and should only be shared within the council and with the school administration",
+      "headings": [
+        "Frequency",
+        "Content",
+        "Preparation",
+        "Distribution"
+      ],
+      "keywords": [
+        "introduction",
+        "guide",
+        "nextjs",
+        "documents",
+        "Frequency",
+        "Content",
+        "Preparation",
+        "Distribution"
+      ]
+    }
+  },
+  {
+    "slug": "/reports/transparency",
+    "title": "Transparency Report",
+    "description": "Understand the transparency report process and procedures.",
+    "content": "## Frequency\n\nTransparency are to be published twice per semester, on specific dates:\n\n* Fall Report, November 15th\n* Winter Report, January 15th\n* Spring Report, March 15th\n* Summer Report, May 15th\n\n## Content\n\nTransparency reports should include the following information:\n\n* A summary of the council's activities and decisions during the reporting period\n* A summary of the council's financials during the reporting period, including:\n  * Net income\n  * Total expenses\n  * Total revenue\n  * A list of transactions that occurred during the reporting period, including the date, amount, and description of each transaction\n  * Current balance of funds\n  * EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)\n  * A breakdown of expenses by category (e.g. events, marketing, etc.)\n  * A breakdown of revenue by category (e.g. fundraising, sponsorships, etc.)\n  * A comparison of the current reporting period's financials to the previous reporting period's financials, as well as to the same reporting period in the previous year\n  * A comparision of the current reporting period's financials to the council's budget for the reporting period,\n  * The council's budget for the next reporting period\n  * An explanation of any significant variances between the current reporting period's financials and the previous reporting period's financials, as well as between the current reporting period's financials and the council's budget for the reporting period\n* A summary of the council's upcoming plans and initiatives for the next reporting period\n* Any other relevant information that the council deems necessary to include\n\n## Preparation\n\nThe Vice President is responsible for the transparency report, with support from the Secretary. The report should be prepared with one of the below softwares (based on intended use and preference):\n\n* Google Docs (General)\n* Google Data Studio (Data Preparation)\n* Canva (Visual Design)\n\nThe transparency report should include a cover page with the ASEC logo, the title of the report, and the reporting period. The report should be well-organized and visually appealing, with clear headings and subheadings, as well as charts and graphs to illustrate financial data where appropriate. The report should be written in a clear and concise manner, avoiding jargon and technical language where possible. The report should be reviewed and approved by the Co-Presidents before being published. The report should use the ASEC brand colours and fonts, which should be sourced from the council's template library. When the report has been completed, it should only be exported as a PDF file.\n\nThe document should be saved with the following name format: \"ASEC Transparency Report - \\[Reporting Period]\". It should use the document security level REL and the use the appropriate watermark.\n\n## Publication\n\nOnce the transparency report has been prepared and approved, it should be distributed first to the school administration and the teacher supervisor of ASEC. Afterwards, at least 15 copies of the report should be printed and given to the school library for public access. Finally, a digital copy of the report should be published on the public ASEC website and shared on the council's social media platforms.\n",
+    "_searchMeta": {
+      "cleanContent": "frequency transparency are to be published twice per semester on specific dates: fall report november 15th winter report january 15th spring report march 15th summer report may 15th content transparency reports should include the following information: a summary of the council s activities and decisions during the reporting period a summary of the council s financials during the reporting period including: net income total expenses total revenue a list of transactions that occurred during the reporting period including the date amount and description of each transaction current balance of funds ebitda earnings before interest taxes depreciation and amortization a breakdown of expenses by category e g events marketing etc a breakdown of revenue by category e g fundraising sponsorships etc a comparison of the current reporting period s financials to the previous reporting period s financials as well as to the same reporting period in the previous year a comparision of the current reporting period s financials to the council s budget for the reporting period the council s budget for the next reporting period an explanation of any significant variances between the current reporting period s financials and the previous reporting period s financials as well as between the current reporting period s financials and the council s budget for the reporting period a summary of the council s upcoming plans and initiatives for the next reporting period any other relevant information that the council deems necessary to include preparation the vice president is responsible for the transparency report with support from the secretary the report should be prepared with one of the below softwares based on intended use and preference : google docs general google data studio data preparation canva visual design the transparency report should include a cover page with the asec logo the title of the report and the reporting period the report should be well-organized and visually appealing with clear headings and subheadings as well as charts and graphs to illustrate financial data where appropriate the report should be written in a clear and concise manner avoiding jargon and technical language where possible the report should be reviewed and approved by the co-presidents before being published the report should use the asec brand colours and fonts which should be sourced from the council s template library when the report has been completed it should only be exported as a pdf file the document should be saved with the following name format: asec transparency report - reporting period it should use the document security level rel and the use the appropriate watermark publication once the transparency report has been prepared and approved it should be distributed first to the school administration and the teacher supervisor of asec afterwards at least 15 copies of the report should be printed and given to the school library for public access finally a digital copy of the report should be published on the public asec website and shared on the council s social media platforms",
+      "headings": [
+        "Frequency",
+        "Content",
+        "Preparation",
+        "Publication"
+      ],
+      "keywords": [
+        "introduction",
+        "guide",
+        "nextjs",
+        "documents",
+        "Frequency",
+        "Content",
+        "Preparation",
+        "Publication"
+      ]
+    }
+  },
+  {
     "slug": "/resource-home/clubs",
     "title": "Clubs",
     "description": "A list of all clubs at Aldershot School.",
@@ -345,6 +416,24 @@
         "Club",
         "Delegate",
         "Description"
+      ]
+    }
+  },
+  {
+    "slug": "/resource-home/finances",
+    "title": "Finances",
+    "description": "Understand the financial allocations to Aldershot School as a whole from the HDSB.",
+    "content": "Aldershot Secondary School Enrollment: 720 (2024-2025, to be updated to 2025-2026 when data becomes available)<br />\nAverage Daily Enrollment (ADE): 700 (rule of thumb based on total enrollment, doesn't reflect actual average daily attendance accurately)<br />\nESL Students: 20 (general rule of thumb, doesn't reflect actual number of ESL students)<br />\nLevel 1 tech courses: 9<br />\nLevel 2 tech courses: 33<br />\nIEPs: 200 (general rule of thumb, doesn't reflect actual number of IEPs)<br />\n\n| Name | Standard Allocation | Recieved by ALD |\n| --- | --- | --- |\n| Base Allocation | $10,000 | $10,000 |\n| General - per ADE | $124 | $86,800 |\n| School Council Allocation | $200 | $200 |\n| Instructional Resources - per ADE | $60 | $42,000 |\n| Core Library Allocation | $1,170 | $1,170 |\n| FI Library Supplement - per FI school | $1,000 | - |\n| ESL Supplement - per identified student | $25 | $500 |\n| Tech (Level 1) - per credit | $30 | $270 |\n| Tech (Level 2) - per credit | $50 | $1,650 |\n| SPED Supplement - per IEP | $10 | $2,000 |\n| Resource Support | $10.00 | $10.00 |\n| **Total** | - | **$144,600** |\n",
+    "_searchMeta": {
+      "cleanContent": "aldershot secondary school enrollment: 720 2024-2025 to be updated to 2025-2026 when data becomes available br average daily enrollment ade : 700 rule of thumb based on total enrollment doesn t reflect actual average daily attendance accurately br esl students: 20 general rule of thumb doesn t reflect actual number of esl students br level 1 tech courses: 9 br level 2 tech courses: 33 br ieps: 200 general rule of thumb doesn t reflect actual number of ieps br name standard allocation recieved by ald--- --- ---base allocation 10 000 10 000general - per ade 124 86 800school council allocation 200 200instructional resources - per ade 60 42 000core library allocation 1 170 1 170fi library supplement - per fi school 1 000 -esl supplement - per identified student 25 500tech level 1 - per credit 30 270tech level 2 - per credit 50 1 650sped supplement - per iep 10 2 000resource support 10 00 10 00total - 144 600",
+      "headings": [],
+      "keywords": [
+        "introduction",
+        "guide",
+        "nextjs",
+        "documents",
+        "Total",
+        "$144,600"
       ]
     }
   },
@@ -398,9 +487,9 @@
     "slug": "/resource-home/schedule",
     "title": "Schedule",
     "description": "The schedule for upcoming meetings and events.",
-    "content": "| **Date** | **Event** | **Description** |\n| --- | --- | --- |\n| June 8, 2026 | Internal Meeting #1 | First internal meeting to prep for the 2026-2027 term. |\n",
+    "content": "| **Date**| **Time** | **Location** | **Event** | **Description** |\n| --- | --- | --- | --- | --- |\n| June 11, 2026 | 11:00 am - 12:00 pm | Room 103 (Student Success) | Internal Meeting #1 | First internal meeting to prep for the 2026-2027 term. |\n",
     "_searchMeta": {
-      "cleanContent": "date event description--- --- ---june 8 2026 internal meeting 1 first internal meeting to prep for the 2026-2027 term",
+      "cleanContent": "date time location event description--- --- --- --- ---june 11 2026 11:00 am - 12:00 pm room 103 student success internal meeting 1 first internal meeting to prep for the 2026-2027 term",
       "headings": [],
       "keywords": [
         "schedule",
@@ -413,6 +502,8 @@
         "important",
         "dates",
         "Date",
+        "Time",
+        "Location",
         "Event",
         "Description"
       ]

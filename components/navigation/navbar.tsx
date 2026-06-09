@@ -11,25 +11,26 @@ import { buttonVariants } from '@/components/ui/button'
 import { SheetClose } from '@/components/ui/sheet'
 import { ModeToggle } from '@/components/ui/theme-toggle'
 import { GitHubLink, Navigations } from '@/settings/navigation'
+import { motion } from 'framer-motion'
 
 export function Navbar() {
   return (
-    <nav className="bg-opacity-5 sticky top-0 z-50 mx-auto flex h-16 w-full items-center justify-between border-b p-1 px-2 backdrop-blur-xl backdrop-filter sm:p-3 md:gap-2 md:px-4">
-      <div className="flex items-center gap-5">
+    <motion.nav className="bg-opacity-5 sticky top-0 z-50 mx-auto flex h-16 w-full items-center justify-between border-b p-1 px-2 backdrop-blur-xl backdrop-filter sm:p-3 md:gap-2 md:px-4">
+      <motion.div className="flex items-center gap-5" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
         <SheetLeft />
         <Logo />
-        <div className="hidden items-center gap-5 text-sm font-medium text-muted-foreground md:flex">
+        <motion.div className="hidden items-center gap-5 text-sm font-medium text-muted-foreground md:flex" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
           <NavMenu />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
 
-      <div className="flex items-center gap-2">
+      <motion.div className="flex items-center gap-2" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
         <Search />
-        <div className="flex gap-2 sm:ml-0">
+        <motion.div className="flex gap-2 sm:ml-0" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
           <ModeToggle />
-        </div>
-      </div>
-    </nav>
+        </motion.div>
+      </motion.div>
+    </motion.nav>
   )
 }
 
@@ -48,7 +49,9 @@ export function NavMenu({ isSheet = false }) {
             rel={item.external ? 'noopener noreferrer' : undefined}
           >
             {item.title}{' '}
-            {item.external && <LuArrowUpRight className="h-3 w-3 align-super" strokeWidth={3} />}
+            <motion.div>
+              {item.external && <LuArrowUpRight className="h-3 w-3 align-super" strokeWidth={3} />}
+            </motion.div>
           </Anchor>
         )
         return isSheet ? (

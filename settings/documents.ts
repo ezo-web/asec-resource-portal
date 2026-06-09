@@ -18,6 +18,10 @@ export const Documents: Paths[] = [
         title: 'Clubs',
         href: '/clubs',
       },
+      {
+        title: 'Finances',
+        href: '/finances',
+      },
     ],
   },
   {
@@ -37,6 +41,28 @@ export const Documents: Paths[] = [
         href: '/consortium',
       },
     ],
+  },
+  {
+      spacer: true,
+  },
+  {
+    heading: 'Documents',
+    title: 'Handling',
+    href: '/handling',
+  },
+  {
+    title: 'Reports',
+    href: '/reports',
+    items: [
+      {
+    title: 'Transparency Report',
+    href: '/transparency',
+      },
+      {
+        title: 'Monthly Audit',
+        href: '/monthly-audit',
+      }
+    ]
   },
   {
     spacer: true,

@@ -8,6 +8,10 @@ import db from '@/lib/firebase'
 import { PageRoutes } from '@/lib/pageroutes'
 import { Link } from '@/lib/transition'
 import { buttonVariants } from './ui/button'
+import { motion } from 'framer-motion'
+import { animate } from 'motion'
+import rotate from 'motion'
+import duration from 'motion'
 
 export function AccessCodeForm() {
   const [hasAccess, setHasAccess] = useState<boolean | null>(null)
@@ -58,50 +62,60 @@ export function AccessCodeForm() {
   const tod = new Date().getHours()
 
   return (
-    <section>
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       {!accessPerm && (
         <>
           {!hasAccess && (
-            <p className="mb-8 max-w-150 text-primary sm:text-base">
+            <motion.p className="mb-8 max-w-150 text-primary sm:text-base" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
               This is an internal site only for access by approved members of ASEC. Please input the
               access code.
-            </p>
+            </motion.p>
           )}
           {hasAccess && (
-            <p className="mb-8 max-w-150 text-primary sm:text-base">
+            <motion.p className="mb-8 max-w-150 text-primary sm:text-base" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
               This is an internal site only for access by approved members of ASEC. Please click the
               button to continue.
-            </p>
+            </motion.p>
           )}
-          <form onSubmit={handleSubmit} className="flex flex-col items-center gap-4">
-            <input
+          <motion.form initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} onSubmit={handleSubmit} className="flex flex-col items-center gap-4">
+            {isCheckingAccess && <motion.img src="/spinner.svg" alt="Loading..." className="w-30 h-30" />}
+            <motion.input
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
               name="accessCode"
               type="password"
               placeholder="Enter access code"
               className="mb-4 rounded-lg border border-gray-300 px-4 py-2 focus:border-blue-500 focus:outline-none"
               disabled={isCheckingAccess}
             />
-            {errorMessage && <p className="text-sm text-red-500">{errorMessage}</p>}
-            <button
+            {errorMessage && <motion.p className="text-sm text-red-500">{errorMessage}</motion.p>}
+            <motion.button
               className={buttonVariants({ className: 'px-6', size: 'lg' })}
               type="submit"
               disabled={isCheckingAccess}
             >
               {isCheckingAccess ? 'Checking...' : 'Verify access code'}
-            </button>
-          </form>
+            </motion.button>
+          </motion.form>
         </>
       )}
       {accessPerm && (
-        <div>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
           {tod < 12 ? (
-            <p className="text-lg font-medium text-primary">Good morning{accessNameCookie ? `, ${accessNameCookie}` : ''}</p>
+            <motion.p className="text-lg font-medium text-primary" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>Good morning{accessNameCookie ? `, ${accessNameCookie}` : ''}</motion.p>
           ) : tod < 18 ? (
-            <p className="text-lg font-medium text-primary">Good afternoon{accessNameCookie ? `, ${accessNameCookie}` : ''}</p>
+            <motion.p className="text-lg font-medium text-primary" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>Good afternoon{accessNameCookie ? `, ${accessNameCookie}` : ''}</motion.p>
           ) : (
-            <p className="text-lg font-medium text-primary">Good evening{accessNameCookie ? `, ${accessNameCookie}` : ''}</p>
+            <motion.p className="text-lg font-medium text-primary" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>Good evening{accessNameCookie ? `, ${accessNameCookie}` : ''}</motion.p>
           )}
-          <p>This session expires at {new Date(cookies.accessExpiration).toLocaleString().slice(11)}</p>
+          <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
+            This session expires at {new Date(cookies.accessExpiration).toLocaleString().slice(11)}
+          </motion.p>
           <br />
           <Link
             href={`/docs${PageRoutes[0].href}`}
@@ -109,8 +123,8 @@ export function AccessCodeForm() {
           >
             Go to docs
           </Link>
-        </div>
+        </motion.div>
       )}
-    </section>
+    </motion.section>
   )
 }
