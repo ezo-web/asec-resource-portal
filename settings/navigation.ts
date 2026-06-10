@@ -7,7 +7,7 @@ export const Navigations = [
   },
   {
     title: 'Public Site',
-    href: 'https://asec.crd.co',
+    href: '/not-found',
     external: true,
   },
 ]

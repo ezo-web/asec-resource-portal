@@ -22,6 +22,10 @@ export const Documents: Paths[] = [
         title: 'Finances',
         href: '/finances',
       },
+      {
+        title: 'Template Library',
+        href: '/templates',
+      },
     ],
   },
   {
