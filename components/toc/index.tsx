@@ -1,6 +1,5 @@
 import { TableAnchor, type TableAnchorProps } from '@/components/toc/anchor'
 import { BackToTop } from '@/components/toc/backtotop'
-import { Feedback } from '@/components/toc/feedback'
 import { Settings } from '@/types/settings'
 
 interface TableProps {
@@ -18,7 +17,6 @@ export function TableOfContents({ tocs, pathName, frontmatter }: TableProps) {
           aria-label="Table of contents"
         >
           {Settings.toc && <TableAnchor tocs={tocs.tocs} />}
-          {Settings.feedback && <Feedback slug={pathName} title={frontmatter.title} />}
           {Settings.totop && <BackToTop />}
         </aside>
       )}
